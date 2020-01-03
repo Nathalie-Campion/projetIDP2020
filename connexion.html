@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/40e51f5a35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <div>coucou</div>
+    </header>
+    <main>
+        <h2>Connexion</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form>
+                        <h3>Pas encore inscrit !</h3>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nom</label>
+                            <input type="text" name="nom" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Prénom</label>
+                            <input type="text" name="prenom" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">téléphone</label>
+                            <input type="text" name="tel" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Adresse mail</label>
+                            <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" placeholder="mail@exemple.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Mot de passe</label>
+                            <input name="mp" type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Confirmation du mot de passe</label>
+                            <input name="confmp" type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Choisissez une question</label>
+                            <select name="choix" class="form-control" id="exampleFormControlSelect1">
+                                <option>Quel est le nom de jeune fille de votre mère ?</option>
+                                <option>Quel est votre animal préféré ?</option>
+                                <option>Quel est le prénom de votre meilleur ami ?</option>
+                                <option>Quel est votre plat préféré ?</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input name="repchoix" type="text" class="form-control" id="exampleFormControlInput1" placeholder="votre réponse">
+                        </div>
+                        <div class="centrer">
+                            <button type="button" class="bouton1">valider</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <h3>Déjà inscrit !</h3>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Adresse mail</label>
+                            <input type="email1" name="mail" class="form-control" id="exampleFormControlInput1" placeholder="mail@exemple.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Mot de passe</label>
+                            <input name="mp1" type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="centrer">
+                            <button type="button" class="bouton1">valider</button>
+                        </div>
+                    </form>
+                    <form id="suite">
+                        <h3>Mot de passe perdu !</h3>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Adresse mail</label>
+                            <input type="text" name="mail" class="form-control mailperdu" id="exampleFormControlInput1" placeholder="mail@exemple.com">
+                        </div>
+                        <div class="centrer">
+                            <button id="mpperdu" type="button" class="bouton1">valider</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer> <div>coucou</div>
+    <!--Image by <a href="https://pixabay.com/users/AdinaVoicu-485024/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=881884">Adina Voicu</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=881884">Pixabay</a> 
+    --></footer>
+    
+    <script src="connexion.js"></script>
+</body>
+</html>
