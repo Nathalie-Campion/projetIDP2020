@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+}
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.bouton {
+    padding: 0.5em 0.5em;
+    border: 0.1em solid #9f7f39;      /*doré foncé*/
+    border-radius: 3px;
+    color: #00708c;                    /*bleu */
+    text-align: center;
+    background-color: white;
+    transition: border 1s, box-shadow 1s, color 1s;                     
+}
+
+
+.bouton:hover {
+    box-shadow: 0 0 0.3em #10434a;      /*bleu foncé */
+    border: 0.2em solid #c2a360;        /*doré */
+    color: #10434a;
+}
+
+.bouton1 {
+    padding: 0.5em 0.5em;
+    border: none;
+    border-radius: 3px;
+    color: white;                   
+    text-align: center;
+    background-color: #9f7f39;
+    transition: background-color 1s, color 1s, box-shadow 1s;  
+}
+
+.bouton1:hover {
+    box-shadow: 0 0 0.3em #10434a;      /*bleu foncé */
+    background-color: #ead098;
+    color: #00708c;
+}
+
+
+header, footer {
+    background-color: #10434a;
+}
+
+form {
+    border: 0.2rem solid #9f7f39;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 0.5em black;      /*bleu foncé */
+    padding: 2rem 2rem;
+}
+
+h3 {
+    text-align:center;
+    color: #00708c;
+}
+
+.centrer {
+    text-align:center;
+}
+
+.form-control[readonly]{
+    color:#00708c !important;
+    background-color: rgb(232, 240, 254) !important;
+}
