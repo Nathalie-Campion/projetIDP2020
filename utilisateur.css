@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+    font-size: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.bouton {
+    padding: 0.5em 0.5em;
+    border: 0.1em solid #9f7f39;      /*doré foncé*/
+    border-radius: 3px;
+    color: #00708c;                    /*bleu */
+    text-align: center;
+    background-color: white;
+    transition: border 1s, box-shadow 1s, color 1s;                     
+}
+
+
+.bouton:hover {
+    box-shadow: 0 0 0.3em #10434a;      /*bleu foncé */
+    border: 0.2em solid #c2a360;        /*doré */
+    color: #10434a;
+}
+
+.bouton1 {
+    padding: 0.5em 0.5em;
+    border: none;
+    border-radius: 3px;
+    color: white;  
+    font-weight: bold;                 
+    text-align: center;
+    background-color: #c2a360;
+    transition: background-color 1s, color 1s, box-shadow 1s;  
+}
+
+.bouton1:hover {
+    box-shadow: 0 0 0.3em #9f7f39;      /*bleu foncé */
+    background-color: white;
+    color: #c2a360;
+}
+
+
+header {
+    height: 3rem;
+    background-image: url("bienEtre2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    /*border: 0.2rem solid #9f7f39;*/
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 0.5rem #9f7f39;      /*bleu foncé */
+    padding: 2rem 2rem;
+}
+
+h3 {
+    text-align:center;
+    color: #00708c;
+}
+
+.centrer {
+    text-align:center;
+}
+
+.form-control[readonly]{
+    color:#00708c !important;
+    background-color: rgb(232, 240, 254) !important;
+}
+
+.bordure {
+    border-top: 0.05rem solid #00708c;
+    border-bottom: 0.05rem solid #00708c;
+
+}
+
+.marge {
+    margin: 2rem 0;
+}
+
+.fa-minus-circle {
+    color: #c2a360;
+    font-size: 2rem;
+    transition: background-color 1s, color 1s;
+}
+
+.fa-minus-circle:hover {
+    background-color: #c2a360;
+    color: white;
+
+}
+
+table {
+    text-align: center;
+    width: 30%;
+}
+
+.lignestab {
+    font-size: 0.8rem;
+    color: #00708c;
+}
+
+.ligne2tab{
+    color: black;
+    font-size: 0.8rem;
+    border-bottom: 0.05rem solid #9f7f39;
+}
+
+.icone {
+    font-size: 2rem;
+    color: #00708c;
+    margin: 0.5rem 1rem 0 1rem;
+}
+
+.gauche {
+    float:left;
+}
